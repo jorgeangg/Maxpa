@@ -1,0 +1,483 @@
+html, body{
+    max-width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+/*barra de navegacion*/
+.navbar{
+    background-color: rgb(240, 240, 245) !important;
+}
+.icon-bar{
+    background-color: #84a44c;
+}
+.logo{
+    width: 165px;
+    height: auto;
+}
+#navbarNav{
+    justify-content: flex-end;
+}
+.nav-item{
+    margin-right: 30px;
+    text-align: center;
+}
+.active{
+    background-color:#84a44c;
+    border-radius: 40px;
+    color: white !important;
+    width: 100px;
+}
+.fixed{
+    position: fixed;
+    background-color: white !important;
+    top: 0;
+    width: 100%;
+    z-index: 3000;
+}
+/*primera seccion*/
+.valla{
+    width: 600px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.vallas-bambu{
+    background-color: rgb(240, 240, 245);
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    font-size: 80px;
+    padding-left: 50px;
+    width: 100%;
+    padding-right: 50px;
+    text-align: center;
+    
+}
+.container-fluid{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+.bambu-texto{
+   margin-top: 50px;
+   font-size: 1.5rem; 
+   text-indent: 0px;
+   font-weight: 300;
+   text-align: center;
+   margin-left: 50px;
+   margin-right: 50px;
+   color: rgb(182, 180, 180);
+}
+/*Segunda seccion*/
+.producto{
+    padding: 100px 0px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.titulo{
+    font-size: 50px;
+    padding-top: 70px;
+}
+.textos{
+   margin-top: 50px;
+   font-size: 1.5rem; 
+   text-indent: 0px;
+   font-weight: 300;
+   margin-left: 20%;
+   margin-right: 20%;
+   font-family: 'Poppins', sans-serif;
+   color: rgb(182, 180, 180);
+   
+}
+.btn{
+    width: 20%;
+    border-radius: 20px;
+    color: white;
+    background-color: #84a44c;
+    margin-top: 80px;
+    border: #84a44c 0px solid;
+}
+/*Tercera seccion*/
+.imgs{
+    padding-top: 60px;
+}
+.cualidades{
+    background-color: rgb(240, 240, 245);
+    padding: 80px 80px;
+}
+.caracteristicas{
+    display: flex;
+    flex-direction: column;
+}
+.iconos{
+    width: 200px;
+}
+.iconos-titulos{
+    font-weight: bolder;
+    font-size: 22px;
+    padding-top: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.iconos-texto{
+   font-size: 1.5rem; 
+   text-indent: 0px;
+   font-weight: 300;
+   text-align: center;
+   padding: 30px 30px;
+   color: rgb(182, 180, 180);
+}
+.imagenes{
+    display: flex;
+    flex-direction: row;
+}
+/*Cuarta seccion*/
+.col-6, .col-sm-4 {
+    flex: 0 0 auto;
+    width: 50%;
+    padding: 0;
+}
+.row{
+    margin: 0;
+    max-width: 100%;
+}
+.img-diagonales{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.textos-diagonales{
+    padding: 150px 200px 100px 50px ;
+    display: flex;
+    flex-direction: column;
+}
+.texto-diagonales{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: rgb(182, 180, 180);
+    padding-top: 20px;
+}
+.titulo-diagonales{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.textos-diagonales-inverso{
+    padding: 50px 80px 100px 200px ;
+    display: flex;
+    flex-direction: column;
+}
+/*Quinta seccion*/
+.quotes{
+    background-color: rgb(240, 240, 245);
+    padding: 80px 80px;
+}
+.quote{
+    width: 50px;
+    font-size: 1.5rem;
+}
+.quotes-titulos{
+    padding: 30px 0px;
+    color: rgb(182, 180, 180);
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+.quotes-texto{
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Sexta seccion*/
+.informacion{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 50px 0px 100px 0px;
+    
+}
+.margins{
+    padding: 10px 60px;
+    color: rgb(182, 180, 180);
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+.tops{
+    padding-top: 30px;
+    font-size: 50px;
+    color: #212529;
+    font-weight: bolder;
+}
+.img-info{
+    width: 450px;
+}
+.big{
+    flex: 0 0 65%;
+}
+.small{
+    padding-top: 80px;
+    flex:0 0 35%;
+}
+.green{
+    color: #84a44c !important;
+    padding: 5px;
+}
+span{
+    padding-left: 10px;
+}
+/*Septima seccion*/
+.formulario{
+    width: 45%;
+    height: 70%;
+    z-index: 10;
+    position: absolute;
+    background-color:white;
+    box-shadow: 0px 0px 5px black;
+}
+.margen{
+    padding: 100px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+.img-footer{
+    width: 100%;
+}
+.paddings{
+    padding: 30px 50px;
+}
+input, textarea{
+    border-radius: 0 !important;
+    background-color:rgb(248, 245, 245) !important;
+}
+input{
+    height: 40px;
+}
+.mb-3{
+    padding: 10px 0px 0px 0px;
+    margin-bottom: 0 !important;
+}
+.form-control{
+    padding: 15px 20px;
+}
+.offset-md-1 {
+    margin-left: 5%;
+}
+.img-final{
+    margin-top: 300px;
+}
+.btn-primary{
+    margin: 30px 0 ;
+    text-align: center;
+    width: auto;
+    font-weight:700;
+}
+.contacto{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.boton{
+    text-align:center;
+}
+/*Pie de pagina*/
+.primer-divisor{
+    margin: 0px 30%;
+    font-size: 15px;
+}
+.segundo-divisor{
+    margin: 0px 15%;
+    font-size: 15px;
+}
+hr{
+    border: 1.5px rgb(182, 180, 180) solid;
+    width: 100%;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    margin: 0 !important;
+    align-items: center;
+    justify-content: center;
+    color: rgb(182, 180, 180);
+    font-weight: 200;
+}
+.foot-iconos{
+    margin-right: 10px;
+}
+.offset-md-2{
+    margin: 0 !important;
+}
+.m{
+    padding: 100px 100px;
+}
+.copy{
+    margin: 0;
+    padding-left: 10px;
+}
+.copyright{
+    margin-top: 20px !important;
+    font-size: 15px;
+    font-weight: 200;
+}
+/*media querys para pantallas no superiores a 750 pixeles*/
+@media (max-width:750px){
+    .texto {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        font-size: 40px;
+        padding-left: 0px;
+        width: 100%;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .bambu-titulo{
+        margin-right: 50px;
+        margin-left: 20px;
+    }
+    .bambu-texto {
+        margin-top: 50px;
+        font-size: 1.5rem;
+        text-indent: 0px;
+        font-weight: 300;
+        text-align: center;
+        /* margin-left: 50px; */
+        /* margin-right: 50px; */
+        color: rgb(182, 180, 180);
+    }
+    .producto {
+        padding: 0px 0px;
+    }
+    .valla{
+        width: 400px;
+    }
+    .textos {
+        margin-top: 50px;
+        font-size: 1.5rem;
+        text-indent: 0px;
+        font-weight: 300;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(182, 180, 180);
+    }
+    .navbar{
+        width: 100%;
+    }
+    .titulo{
+        font-size: 40px;
+    }
+    .cualidades{
+        padding: 0;
+    }
+    .flex{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .imagenes{
+        flex-direction: column;
+    }
+    .iconos-titulos{
+        font-size: 30px;
+    }
+    .iconos-texto{
+        padding: 10px 30px 50px;
+    }
+    .diagonales{
+        flex-direction: column;
+    }
+    .m-botton{
+        padding-bottom: 50px;
+    }
+    .titulo-diagonales {
+        font-size: 30px;
+        padding-top: 50px;
+        text-align: center;
+        font-weight: bolder;
+    }
+    .texto-diagonales{
+        padding: 10px 50px 30px;
+    }
+    .textos-diagonales-inverso, .textos-diagonales{
+        padding: 0;
+    }
+    .col-6, .col-sm-4 {
+        flex: 0 0 auto;
+        width: 100%;
+        padding: 0;
+    }
+    .primero{
+        order: 1;
+    }
+    .segundo{
+        order: 2;
+    }
+    .tercero{
+        order: 3;
+    }
+    .cuarto{
+        order: 4;
+    }
+    .quotes{
+        padding: 0;
+    }
+    .margins{
+        padding: 30px;
+    }
+    .tops{
+        padding: 15px !important;
+        font-size: 25px;
+    }
+    .info-inverso{
+        flex-direction: column-reverse;
+    }
+    span{
+        font-size: 21px;
+    }
+    .green{
+        padding: 10px 0;
+    }
+    .iconos-texto{
+        padding-bottom: 30px;
+    }
+    .img-info{
+        width: 370px;
+    }
+    .active{
+        margin: 0px 50px;
+        width: auto;
+    }
+    .nav-item{
+        margin: 0;
+    }
+    .formulario{
+        width:95%;
+        height:auto;
+    }
+    .img-footer{
+        width: 100%;
+        object-fit: cover;
+        height: 250px;
+    }
+    .links-footer{
+        padding:20px 0;
+    }
+    .primer-divisor, .segundo-divisor{
+        flex-direction:column;
+        margin:0;
+    }
+    .segundo-divisor{
+        text-align:center;
+    }
+    .m{
+        padding:50px 50px;
+    }
+    .contactos{
+        padding:20px;
+    }
+}
